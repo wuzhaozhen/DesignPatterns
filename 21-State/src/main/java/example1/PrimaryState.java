@@ -1,4 +1,4 @@
-package sample01;
+package example1;
 
 public class PrimaryState extends AbstractState {
 	public PrimaryState(AbstractState state) {
