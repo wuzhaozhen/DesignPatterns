@@ -1,9 +1,9 @@
-package sample01;
+package example1;
 
 import java.util.*;
 
 public class ChatGroup extends AbstractChatroom {
-	private Hashtable members = new Hashtable();
+	private Hashtable<String,Object> members = new Hashtable<String,Object>();
 
 	public void register(Member member) {
 		if (!members.contains(member)) {
