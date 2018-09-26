@@ -1,4 +1,4 @@
-package dp.memento;
+package example1;
 
 public class Caretaker {
 	private Memento memento;

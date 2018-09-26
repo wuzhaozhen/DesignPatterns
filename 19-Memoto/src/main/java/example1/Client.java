@@ -1,7 +1,4 @@
-package sample01;
-
-import dp.memento.Caretaker;
-import dp.memento.UserInfoDTO;
+package example1;
 
 public class Client {
 	public static void main(String a[]) {

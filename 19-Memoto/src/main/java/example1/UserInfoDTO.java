@@ -1,4 +1,4 @@
-package dp.memento;
+package example1;
 
 public class UserInfoDTO {
 	private String account;

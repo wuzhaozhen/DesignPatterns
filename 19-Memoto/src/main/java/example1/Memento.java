@@ -1,4 +1,4 @@
-package dp.memento;
+package example1;
 
 class Memento {
 	private String account;
