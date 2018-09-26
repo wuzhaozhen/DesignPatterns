@@ -1,4 +1,4 @@
-package sample02;
+package example1;
 
 public class Hub implements NetworkDevice {
 	private String type;
@@ -11,7 +11,7 @@ public class Hub implements NetworkDevice {
 		return this.type;
 	}
 
-	public void use(Port port) {
-		System.out.println("Linked by Hub, type is " + this.type + ", port is " + port.getPort());
+	public void use() {
+		System.out.println("Linked by Hub, type is " + this.type);
 	}
 }

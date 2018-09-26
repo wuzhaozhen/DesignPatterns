@@ -1,9 +1,9 @@
-package sample01;
+package example2;
 
 import java.util.*;
 
 public class DeviceFactory {
-	private ArrayList devices = new ArrayList();
+	private ArrayList<NetworkDevice> devices = new ArrayList<NetworkDevice>();
 	private int totalTerminal = 0;
 
 	public DeviceFactory() {

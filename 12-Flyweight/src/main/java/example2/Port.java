@@ -1,4 +1,4 @@
-package sample02;
+package example2;
 
 public class Port {
 	private String port;

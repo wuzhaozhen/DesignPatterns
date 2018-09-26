@@ -1,4 +1,4 @@
-package sample02;
+package example1;
 
 public class Client {
 	public static void main(String args[]) {
@@ -6,19 +6,19 @@ public class Client {
 		DeviceFactory df = new DeviceFactory();
 
 		nd1 = df.getNetworkDevice("cisco");
-		nd1.use(new Port("1000"));
+		nd1.use();
 
 		nd2 = df.getNetworkDevice("cisco");
-		nd2.use(new Port("1001"));
+		nd2.use();
 
 		nd3 = df.getNetworkDevice("cisco");
-		nd3.use(new Port("1002"));
+		nd3.use();
 
 		nd4 = df.getNetworkDevice("tp");
-		nd4.use(new Port("1003"));
+		nd4.use();
 
 		nd5 = df.getNetworkDevice("tp");
-		nd5.use(new Port("1004"));
+		nd5.use();
 
 		System.out.println("Total Device:" + df.getTotalDevice());
 		System.out.println("Total Terminal:" + df.getTotalTerminal());
