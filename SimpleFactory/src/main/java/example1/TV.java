@@ -1,4 +1,4 @@
-package com.wuzz.service;
+package example1;
 
 public interface TV {
 	public void play();

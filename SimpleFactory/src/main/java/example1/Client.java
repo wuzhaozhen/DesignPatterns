@@ -1,8 +1,4 @@
-package com.wuzz;
-
-import com.wuzz.base.TVFactory;
-import com.wuzz.base.XMLUtilTV;
-import com.wuzz.service.TV;
+package example1;
 
 public class Client {
 	public static void main(String args[]) {

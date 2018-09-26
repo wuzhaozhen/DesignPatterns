@@ -1,4 +1,4 @@
-package com.wuzz.base;
+package example1;
 
 import javax.xml.parsers.*;
 import org.w3c.dom.*;

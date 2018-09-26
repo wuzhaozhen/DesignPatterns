@@ -1,8 +1,4 @@
-package com.wuzz.base;
-
-import com.wuzz.service.TV;
-import com.wuzz.service.impl.HaierTV;
-import com.wuzz.service.impl.HisenseTV;
+package example1;
 
 public class TVFactory {
 	public static TV produceTV(String brand) throws Exception {

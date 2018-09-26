@@ -1,6 +1,4 @@
-package com.wuzz.service.impl;
-
-import com.wuzz.service.TV;
+package example1;
 
 public class HaierTV implements TV {
 	public void play() {
