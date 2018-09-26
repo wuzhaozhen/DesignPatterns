@@ -1,12 +1,12 @@
-package sample01;
+package example1;
 
 import java.util.*;
 
 public class BuyBasket {
-	private ArrayList list = new ArrayList();
+	private ArrayList<Product> list = new ArrayList<Product>();
 
 	public void accept(Visitor visitor) {
-		Iterator i = list.iterator();
+		Iterator<Product> i = list.iterator();
 
 		while (i.hasNext()) {
 			((Product) i.next()).accept(visitor);
