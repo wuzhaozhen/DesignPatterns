@@ -1,4 +1,4 @@
-package com.wuzz.simple2;
+package example2;
 
 public class PrintSpoolerSingleton {
 	private static PrintSpoolerSingleton instance = null;

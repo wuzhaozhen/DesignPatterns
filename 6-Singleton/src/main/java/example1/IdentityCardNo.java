@@ -1,4 +1,4 @@
-package com.wuzz.simple1;
+package example1;
 
 public class IdentityCardNo {
 	private static IdentityCardNo instance = null;

@@ -1,4 +1,4 @@
-package com.wuzz.simple1;
+package example1;
 
 public class Client {
 	public static void main(String a[]) {

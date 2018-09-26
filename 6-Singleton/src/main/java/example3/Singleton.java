@@ -1,4 +1,4 @@
-package com.wuzz.simple3;
+package example3;
 
 public class Singleton {
 	private static Singleton instance = null;
