@@ -1,4 +1,4 @@
-package sample02;
+package example2;
 
 public final class SimpleCipher implements Cipher {
 	public String encrypt(String plainText) {
