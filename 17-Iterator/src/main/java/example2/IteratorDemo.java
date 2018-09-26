@@ -1,10 +1,10 @@
-package JavaIterator;
+package example2;
 
 import java.util.*;
 
 public class IteratorDemo {
-	public static void process(Collection c) {
-		Iterator i = c.iterator();
+	public static void process(Collection<String> c) {
+		Iterator<String> i = c.iterator();
 
 		while (i.hasNext()) {
 			System.out.println(i.next().toString());
@@ -12,7 +12,7 @@ public class IteratorDemo {
 	}
 
 	public static void main(String args[]) {
-		Collection list = new HashSet();
+		Collection<String> list = new HashSet<String>();
 		list.add("Cat");
 		list.add("Dog");
 		list.add("Pig");

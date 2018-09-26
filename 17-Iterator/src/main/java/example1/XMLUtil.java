@@ -1,8 +1,7 @@
-package sample01;
+package example1;
 
 import javax.xml.parsers.*;
 import org.w3c.dom.*;
-import org.xml.sax.SAXException;
 import java.io.*;
 
 public class XMLUtil {
@@ -13,7 +12,7 @@ public class XMLUtil {
 			DocumentBuilderFactory dFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder builder = dFactory.newDocumentBuilder();
 			Document doc;
-			doc = builder.parse(new File("config.xml"));
+			doc = builder.parse(new File("src/main/resources/config.xml"));
 
 			// 获取包含类名的文本节点
 			NodeList nl = doc.getElementsByTagName("className");
@@ -21,7 +20,7 @@ public class XMLUtil {
 			String cName = classNode.getNodeValue();
 
 			// 通过类名生成实例对象并将其返回
-			Class c = Class.forName(cName);
+			Class<?> c = Class.forName(cName);
 			Object obj = c.newInstance();
 			return obj;
 		} catch (Exception e) {

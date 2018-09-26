@@ -1,13 +1,13 @@
-package sample01;
+package example1;
 
-public class SkyworthTelevision implements Television {
-	private Object[] obj = { "CCTV-1", "CCTV-2", "CCTV-3", "CCTV-4", "CCTV-5", "CCTV-6", "CCTV-7", "CCTV-8" };
+public class TCLTelevision implements Television {
+	private Object[] obj = { "湖南卫视", "北京卫视", "上海卫视", "湖北卫视", "黑龙江卫视" };
 
 	public TVIterator createIterator() {
-		return new SkyworthIterator();
+		return new TCLIterator();
 	}
 
-	private class SkyworthIterator implements TVIterator {
+	class TCLIterator implements TVIterator {
 		private int currentIndex = 0;
 
 		public void next() {
