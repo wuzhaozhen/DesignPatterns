@@ -1,4 +1,4 @@
-package sample01;
+package example1;
 
 public class Manager extends Leader {
 	public Manager(String name) {
