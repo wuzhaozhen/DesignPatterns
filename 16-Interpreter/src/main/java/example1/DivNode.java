@@ -1,4 +1,4 @@
-package sample01;
+package example1;
 
 public class DivNode extends SymbolNode {
 	public DivNode(Node left, Node right) {

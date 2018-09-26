@@ -1,4 +1,4 @@
-package sample01;
+package example1;
 
 public class ModNode extends SymbolNode {
 	public ModNode(Node left, Node right) {
