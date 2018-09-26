@@ -1,4 +1,4 @@
-package sample02;
+package example2;
 
 public class ComplexCipher extends CipherDecorator {
 	public ComplexCipher(Cipher cipher) {

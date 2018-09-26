@@ -1,4 +1,4 @@
-package sample02;
+package example2;
 
 public class CipherDecorator implements Cipher {
 	private Cipher cipher;

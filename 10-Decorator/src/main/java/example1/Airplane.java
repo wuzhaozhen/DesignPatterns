@@ -1,4 +1,4 @@
-package sample01;
+package example1;
 
 public class Airplane extends Changer {
 	public Airplane(Transform transform) {
