@@ -1,9 +1,9 @@
-package sample01;
+package example1;
 
 import java.util.*;
 
 public abstract class MySubject {
-	protected ArrayList observers = new ArrayList();
+	protected ArrayList<MyObserver> observers = new ArrayList<MyObserver>();
 
 	// 注册方法
 	public void attach(MyObserver observer) {
