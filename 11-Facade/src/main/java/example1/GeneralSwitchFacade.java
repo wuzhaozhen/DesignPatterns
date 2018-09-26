@@ -1,4 +1,4 @@
-package sample01;
+package example1;
 
 public class GeneralSwitchFacade {
 	private Light lights[] = new Light[4];

@@ -1,4 +1,4 @@
-package JDBCFacade;
+package example2;
 
 import java.sql.*;
 
