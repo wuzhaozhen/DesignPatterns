@@ -1,4 +1,4 @@
-package sample01;
+package example1;
 
 public abstract class BankTemplateMethod {
 	public void takeNumber() {

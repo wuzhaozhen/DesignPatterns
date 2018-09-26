@@ -1,4 +1,4 @@
-package sample01;
+package example1;
 
 public class Withdraw extends BankTemplateMethod {
 	public void transact() {

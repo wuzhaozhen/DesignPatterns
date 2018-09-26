@@ -1,4 +1,4 @@
-package sample02;
+package example2;
 
 abstract class DBOperator {
 	public abstract void connDB();

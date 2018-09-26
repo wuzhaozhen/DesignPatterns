@@ -1,4 +1,4 @@
-package sample01;
+package example1;
 
 public class Transfer extends BankTemplateMethod {
 	public void transact() {
