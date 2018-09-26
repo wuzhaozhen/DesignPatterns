@@ -1,8 +1,7 @@
-package sample02;
+package example1;
 
 import javax.xml.parsers.*;
 import org.w3c.dom.*;
-import org.xml.sax.SAXException;
 import java.io.*;
 
 public class XMLUtil {
@@ -21,7 +20,7 @@ public class XMLUtil {
 			String cName = classNode.getNodeValue();
 
 			// 通过类名生成实例对象并将其返回
-			Class c = Class.forName(cName);
+			Class<?> c = Class.forName(cName);
 			Object obj = c.newInstance();
 			return obj;
 		} catch (Exception e) {

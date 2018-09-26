@@ -1,4 +1,4 @@
-package sample01;
+package example1;
 
 public class QuickSort implements Sort {
 	public int[] sort(int arr[]) {
