@@ -3,8 +3,8 @@ package example2;
 public class Client {
 	public static void main(String args[]) {
 		Switch s1, s2;
-		s1 = new Switch("����1");
-		s2 = new Switch("����2");
+		s1 = new Switch("开关1");
+		s2 = new Switch("开关2");
 
 		s1.on();
 		s2.on();
