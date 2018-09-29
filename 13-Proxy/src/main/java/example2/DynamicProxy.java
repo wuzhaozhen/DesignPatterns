@@ -13,6 +13,11 @@ public class DynamicProxy implements InvocationHandler {
 		this.obj = obj;
 	}
 
+	/**
+	 * proxy：被代理的对象
+	 * method：被代理的方法
+	 * args：参数
+	 */
 	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 		preRequest();
 		method.invoke(obj, args);

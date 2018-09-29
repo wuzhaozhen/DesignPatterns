@@ -5,3 +5,15 @@
 ### 静态代理
 1. 继承方式：不推荐
 2. 聚合方式：推荐
+
+### 动态代理
+#### JDK动态代理
+1. 创建一个实现接口InvocationHandler的类，它必须实现invoke的方法。
+2. 创建被代理的类及接口。
+3. 调用Proxy的静态方法，创建一个代理类：Proxy.newProxyInstance(ClassLoader loader,new Class[] interfaces,InvocationHandler h);
+4. 通过代理调用方法。
+
+> 注： 只能代理实现了接口的类;没有实现接口的类不能实现JDK的动态代理。
+
+#### CGLIB动态代理
+> 注：针对类来实现代理的；对指定目标类产生一个子类，通过方法拦截技术拦截多有父类方法的调用。
