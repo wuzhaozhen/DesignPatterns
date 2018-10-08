@@ -1,5 +1,11 @@
 package example1;
 
+import example1.object.MyElement;
+import example1.object.children.Apple;
+import example1.object.children.Banana;
+import example1.object.children.Pear;
+import example1.object.children.Plate;
+
 public class Client {
 	public static void main(String a[]) {
 		MyElement obj1, obj2, obj3, obj4, obj5;
@@ -23,6 +29,6 @@ public class Client {
 		plate3.add(plate2);
 		plate3.add(obj5);
 
-		plate1.eat();
+		plate3.eat();
 	}
 }
