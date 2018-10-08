@@ -1,4 +1,4 @@
-package example3;
+package example1.proxy;
 
 public interface AbstractPermission {
 	public void modifyUserInfo();
