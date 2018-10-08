@@ -1,13 +1,19 @@
-package example1;
+package example1.template;
 
+/**
+ * 模板方法
+ * 
+ * @author wuzz
+ * @date 2018年10月8日 上午11:16:33
+ */
 public abstract class BankTemplateMethod {
-	public void takeNumber() {
+	private void takeNumber() {
 		System.out.println("取号排队。");
 	}
 
-	public abstract void transact();
+	protected abstract void transact();
 
-	public void evaluate() {
+	private void evaluate() {
 		System.out.println("反馈评分。");
 	}
 
