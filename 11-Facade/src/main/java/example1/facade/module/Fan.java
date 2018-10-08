@@ -1,4 +1,4 @@
-package example1;
+package example1.facade.module;
 
 public class Fan {
 	public void on() {

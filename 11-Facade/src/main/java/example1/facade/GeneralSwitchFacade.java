@@ -1,4 +1,9 @@
-package example1;
+package example1.facade;
+
+import example1.facade.module.AirConditioner;
+import example1.facade.module.Fan;
+import example1.facade.module.Light;
+import example1.facade.module.Television;
 
 public class GeneralSwitchFacade {
 	private Light lights[] = new Light[4];
