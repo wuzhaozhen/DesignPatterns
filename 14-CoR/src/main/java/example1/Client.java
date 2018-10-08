@@ -1,5 +1,11 @@
 package example1;
 
+import example1.cor.Leader;
+import example1.cor.children.Director;
+import example1.cor.children.GeneralManager;
+import example1.cor.children.Manager;
+import example1.cor.children.ViceGeneralManager;
+
 public class Client {
 	public static void main(String args[]) {
 		Leader objDirector, objManager, objGeneralManager, objViceGeneralManager;
@@ -13,16 +19,12 @@ public class Client {
 		objManager.setSuccessor(objViceGeneralManager);
 		objViceGeneralManager.setSuccessor(objGeneralManager);
 
-		LeaveRequest lr1 = new LeaveRequest("张三", 2);
-		objDirector.handleRequest(lr1);
+		objDirector.handleRequest("张三", 2);
 
-		LeaveRequest lr2 = new LeaveRequest("李四", 5);
-		objDirector.handleRequest(lr2);
+		objDirector.handleRequest("李四", 5);
 
-		LeaveRequest lr3 = new LeaveRequest("王五", 15);
-		objDirector.handleRequest(lr3);
+		objDirector.handleRequest("王五", 15);
 
-		LeaveRequest lr4 = new LeaveRequest("赵六", 25);
-		objDirector.handleRequest(lr4);
+		objDirector.handleRequest("赵六", 30);
 	}
 }

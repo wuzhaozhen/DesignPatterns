@@ -1,4 +1,4 @@
-package example1;
+package example1.cor;
 
 public abstract class Leader {
 	protected String name;
@@ -12,5 +12,5 @@ public abstract class Leader {
 		this.successor = successor;
 	}
 
-	public abstract void handleRequest(LeaveRequest request);
+	public abstract void handleRequest(String userName, int days);
 }
