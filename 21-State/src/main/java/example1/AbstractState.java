@@ -1,5 +1,11 @@
 package example1;
 
+/**
+ * 抽象状态类
+ * 
+ * @Author wuzz
+ * @Date 2018年10月8日 下午10:30:20
+ */
 public abstract class AbstractState {
 	protected ForumAccount acc;
 	protected int point;

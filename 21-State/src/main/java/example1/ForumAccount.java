@@ -1,5 +1,11 @@
 package example1;
 
+/**
+ * 环境类（拥有状态的对象）
+ * 
+ * @Author wuzz
+ * @Date 2018年10月8日 下午10:29:15
+ */
 public class ForumAccount {
 	private AbstractState state;
 	private String name;
