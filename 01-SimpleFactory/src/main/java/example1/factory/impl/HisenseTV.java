@@ -1,4 +1,6 @@
-package example1;
+package example1.factory.impl;
+
+import example1.factory.TV;
 
 public class HisenseTV implements TV {
 	public void play() {

@@ -1,4 +1,4 @@
-package example2;
+package example2.factory;
 
 public abstract class User {
 	public void sameOperation() {

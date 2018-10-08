@@ -1,4 +1,6 @@
-package example2;
+package example2.factory.impl;
+
+import example2.factory.User;
 
 public class Manager extends User {
 	public Manager() {
