@@ -1,5 +1,9 @@
 package example1;
 
+import example1.iterator.TVIterator;
+import example1.iterator.Television;
+import example1.iterator.impl.SkyworthTelevision;
+
 public class Client {
 	public static void display(Television tv) {
 		TVIterator i = tv.createIterator();
@@ -21,8 +25,7 @@ public class Client {
 	}
 
 	public static void main(String a[]) {
-		Television tv;
-		tv = (Television) XMLUtil.getBean();
+		Television tv = new SkyworthTelevision();
 		display(tv);
 		System.out.println("--------------------------");
 		reverseDisplay(tv);

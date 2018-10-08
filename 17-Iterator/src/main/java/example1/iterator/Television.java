@@ -1,4 +1,4 @@
-package example1;
+package example1.iterator;
 
 public interface Television {
 	TVIterator createIterator();
