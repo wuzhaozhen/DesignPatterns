@@ -1,9 +1,20 @@
 package example1;
 
+import example1.builder.MealBuilder;
+import example1.builder.impl.SubMealBuilderB;
+import example1.product.Meal;
+import example1.supervisor.KFCWaiter;
+
+/**
+ * 消费者角色
+ * 
+ * @author wuzz
+ * @date 2018年10月8日 下午1:24:36
+ */
 public class Client {
 	public static void main(String args[]) {
 		// 动态确定套餐种类
-		MealBuilder mb = (MealBuilder) XMLUtil.getBean();
+		MealBuilder mb = new SubMealBuilderB();
 		// 服务员是指挥者
 		KFCWaiter waiter = new KFCWaiter();
 		// 服务员准备套餐
