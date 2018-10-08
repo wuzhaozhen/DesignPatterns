@@ -2,13 +2,18 @@ package example1;
 
 import java.util.*;
 
+import example1.node.Node;
+import example1.node.impl.ValueNode;
+import example1.node.impl.children.DivNode;
+import example1.node.impl.children.ModNode;
+import example1.node.impl.children.MulNode;
+
 public class Calculator {
-	private String statement;
 	private Node node;
 
 	public void build(String statement) {
 		Node left = null, right = null;
-		Stack stack = new Stack();
+		Stack<Node> stack = new Stack<Node>();
 
 		String[] statementArr = statement.split(" ");
 

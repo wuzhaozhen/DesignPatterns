@@ -1,4 +1,4 @@
-package example1;
+package example1.node;
 
 public interface Node {
 	public int interpret();
