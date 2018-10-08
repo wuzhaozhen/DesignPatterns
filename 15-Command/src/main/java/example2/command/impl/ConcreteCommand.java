@@ -1,4 +1,7 @@
-package example2;
+package example2.command.impl;
+
+import example2.command.AbstractCommand;
+import example2.command.impl.receiver.Adder;
 
 public class ConcreteCommand extends AbstractCommand {
 	private Adder adder = new Adder();

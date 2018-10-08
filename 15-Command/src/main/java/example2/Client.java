@@ -1,5 +1,8 @@
 package example2;
 
+import example2.command.CalculatorForm;
+import example2.command.impl.ConcreteCommand;
+
 public class Client {
 	public static void main(String args[]) {
 		CalculatorForm form = new CalculatorForm();

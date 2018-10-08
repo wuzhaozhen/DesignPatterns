@@ -1,4 +1,4 @@
-package example2;
+package example2.command.impl.receiver;
 
 public class Adder {
 	private int num = 0;

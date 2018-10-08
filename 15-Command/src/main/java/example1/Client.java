@@ -1,5 +1,11 @@
 package example1;
 
+import example1.command.AbstractCommand;
+import example1.command.Controller;
+import example1.command.impl.TVChangeCommand;
+import example1.command.impl.TVCloseCommand;
+import example1.command.impl.TVOpenCommand;
+
 public class Client {
 	public static void main(String a[]) {
 		AbstractCommand openCommand, closeCommand, changeCommand;

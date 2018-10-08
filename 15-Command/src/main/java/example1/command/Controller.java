@@ -1,5 +1,11 @@
-package example1;
+package example1.command;
 
+/**
+ * 命令的请求者
+ * 
+ * @author wuzz
+ * @date 2018年10月8日 下午4:27:41
+ */
 public class Controller {
 	private AbstractCommand openCommand, closeCommand, changeCommand;
 
