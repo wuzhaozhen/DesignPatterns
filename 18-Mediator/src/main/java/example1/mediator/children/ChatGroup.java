@@ -1,10 +1,14 @@
-package example1;
+package example1.mediator.children;
 
 import java.util.*;
 
-public class ChatGroup extends AbstractChatroom {
-	private Hashtable<String,Object> members = new Hashtable<String,Object>();
+import example1.mediator.AbstractChatroom;
+import example1.mediator.Member;
 
+public class ChatGroup extends AbstractChatroom {
+	private Hashtable<String, Object> members = new Hashtable<String, Object>();
+
+	@Override
 	public void register(Member member) {
 		if (!members.contains(member)) {
 			members.put(member.getName(), member);
@@ -12,6 +16,7 @@ public class ChatGroup extends AbstractChatroom {
 		}
 	}
 
+	@Override
 	public void sendText(String from, String to, String message) {
 		Member member = (Member) members.get(to);
 		String newMessage = message;
@@ -19,6 +24,7 @@ public class ChatGroup extends AbstractChatroom {
 		member.receiveText(from, newMessage);
 	}
 
+	@Override
 	public void sendImage(String from, String to, String image) {
 		Member member = (Member) members.get(to);
 		// 模拟图片大小判断

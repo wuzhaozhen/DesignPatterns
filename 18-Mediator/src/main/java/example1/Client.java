@@ -1,5 +1,11 @@
 package example1;
 
+import example1.mediator.AbstractChatroom;
+import example1.mediator.Member;
+import example1.mediator.children.ChatGroup;
+import example1.mediator.children.CommonMember;
+import example1.mediator.children.DiamondMember;
+
 public class Client {
 	public static void main(String args[]) {
 		AbstractChatroom happyChat = new ChatGroup();

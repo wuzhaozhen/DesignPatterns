@@ -1,4 +1,4 @@
-package example1;
+package example1.mediator;
 
 public abstract class AbstractChatroom {
 	public abstract void register(Member member);

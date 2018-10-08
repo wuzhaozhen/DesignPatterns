@@ -1,4 +1,4 @@
-package example1;
+package example1.mediator;
 
 public abstract class Member {
 	protected AbstractChatroom chatroom;
