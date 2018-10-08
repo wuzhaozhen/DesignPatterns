@@ -1,5 +1,10 @@
 package example2;
 
+import example2.decorator.Cipher;
+import example2.decorator.decorator.children.AdvancedCipher;
+import example2.decorator.decorator.children.ComplexCipher;
+import example2.decorator.impl.SimpleCipher;
+
 public class Client {
 	public static void main(String args[]) {
 		String password = "sunnyLiu"; // 明文

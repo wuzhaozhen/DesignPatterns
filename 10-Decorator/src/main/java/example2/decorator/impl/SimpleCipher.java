@@ -1,6 +1,10 @@
-package example2;
+package example2.decorator.impl;
+
+import example2.decorator.Cipher;
 
 public final class SimpleCipher implements Cipher {
+	
+	@Override
 	public String encrypt(String plainText) {
 		String str = "";
 		for (int i = 0; i < plainText.length(); i++) {

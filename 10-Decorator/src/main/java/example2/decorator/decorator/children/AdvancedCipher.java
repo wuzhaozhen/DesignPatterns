@@ -1,4 +1,7 @@
-package example2;
+package example2.decorator.decorator.children;
+
+import example2.decorator.Cipher;
+import example2.decorator.decorator.CipherDecorator;
 
 public class AdvancedCipher extends CipherDecorator {
 	public AdvancedCipher(Cipher cipher) {

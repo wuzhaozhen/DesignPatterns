@@ -18,6 +18,7 @@ public class Client {
 		System.out.println("-----------------------------");
 		
 		Robot robot = new Robot(camaro);
+		robot.move();
 		robot.say();
 	}
 }
