@@ -1,4 +1,6 @@
-package example2;
+package example1.flyWeight.impl;
+
+import example1.flyWeight.NetworkDevice;
 
 public class Switch implements NetworkDevice {
 	private String type;
@@ -11,7 +13,8 @@ public class Switch implements NetworkDevice {
 		return this.type;
 	}
 
-	public void use(Port port) {
-		System.out.println("Linked by switch, type is " + this.type + ", port is " + port.getPort());
+	@Override
+	public void use() {
+		System.out.println("Linked by switch, type is " + this.type);
 	}
 }

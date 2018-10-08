@@ -1,6 +1,10 @@
-package example1;
+package example2.flyWeight.flyWeight;
 
 import java.util.*;
+
+import example2.flyWeight.NetworkDevice;
+import example2.flyWeight.impl.Hub;
+import example2.flyWeight.impl.Switch;
 
 public class DeviceFactory {
 	private ArrayList<NetworkDevice> devices = new ArrayList<NetworkDevice>();

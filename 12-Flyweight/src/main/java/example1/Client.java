@@ -1,5 +1,8 @@
 package example1;
 
+import example1.flyWeight.NetworkDevice;
+import example1.flyWeight.flyWeight.DeviceFactory;
+
 public class Client {
 	public static void main(String args[]) {
 		NetworkDevice nd1, nd2, nd3, nd4, nd5;
