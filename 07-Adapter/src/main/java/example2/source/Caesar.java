@@ -1,4 +1,4 @@
-package example2;
+package example2.source;
 
 public final class Caesar {
 	public String doEncrypt(int key, String ps) {

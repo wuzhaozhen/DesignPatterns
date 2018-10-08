@@ -1,4 +1,4 @@
-package example2;
+package example2.source;
 
 public final class NewCipher {
 	public String doEncrypt(int key, String ps) {

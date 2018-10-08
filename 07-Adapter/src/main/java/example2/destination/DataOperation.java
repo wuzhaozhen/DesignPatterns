@@ -1,4 +1,4 @@
-package example2;
+package example2.destination;
 
 public abstract class DataOperation {
 	private String password;
