@@ -1,5 +1,13 @@
-package example1;
+package example1.decorator.decorator;
 
+import example1.decorator.Transform;
+
+/**
+ * 装饰类
+ * 
+ * @author wuzz
+ * @date 2018年10月8日 下午2:51:45
+ */
 public class Changer implements Transform {
 	private Transform transform;
 
