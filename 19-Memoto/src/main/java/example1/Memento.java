@@ -1,6 +1,12 @@
 package example1;
 
-class Memento {
+/**
+ * 备忘录
+ * 
+ * @Author wuzz
+ * @Date 2018年10月8日 下午10:13:27
+ */
+public class Memento {
 	private String account;
 	private String password;
 	private String telNo;

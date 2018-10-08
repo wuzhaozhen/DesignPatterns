@@ -1,6 +1,12 @@
 package example1;
 
-public class UserInfoDTO {
+/**
+ * 原发器
+ * 
+ * @Author wuzz
+ * @Date 2018年10月8日 下午10:14:44
+ */
+public class Originator {
 	private String account;
 	private String password;
 	private String telNo;

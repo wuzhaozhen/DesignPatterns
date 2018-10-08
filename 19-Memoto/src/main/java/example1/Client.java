@@ -2,7 +2,7 @@ package example1;
 
 public class Client {
 	public static void main(String a[]) {
-		UserInfoDTO user = new UserInfoDTO();
+		Originator user = new Originator();
 		Caretaker c = new Caretaker();
 
 		user.setAccount("zhangsan");
