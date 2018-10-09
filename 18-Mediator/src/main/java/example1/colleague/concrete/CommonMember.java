@@ -1,6 +1,6 @@
-package example1.mediator.children;
+package example1.colleague.concrete;
 
-import example1.mediator.Member;
+import example1.colleague.Member;
 
 public class CommonMember extends Member {
 	public CommonMember(String name) {

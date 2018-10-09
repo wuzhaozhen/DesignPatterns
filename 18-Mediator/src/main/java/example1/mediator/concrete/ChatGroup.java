@@ -1,9 +1,9 @@
-package example1.mediator.children;
+package example1.mediator.concrete;
 
 import java.util.*;
 
+import example1.colleague.Member;
 import example1.mediator.AbstractChatroom;
-import example1.mediator.Member;
 
 public class ChatGroup extends AbstractChatroom {
 	private Hashtable<String, Object> members = new Hashtable<String, Object>();

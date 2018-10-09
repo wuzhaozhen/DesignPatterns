@@ -1,4 +1,6 @@
-package example1.mediator;
+package example1.colleague;
+
+import example1.mediator.AbstractChatroom;
 
 public abstract class Member {
 	protected AbstractChatroom chatroom;
