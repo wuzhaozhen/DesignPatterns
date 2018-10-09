@@ -1,5 +1,8 @@
 package example1;
 
+import example1.caretaker.Caretaker;
+import example1.originator.Originator;
+
 public class Client {
 	public static void main(String a[]) {
 		Originator user = new Originator();

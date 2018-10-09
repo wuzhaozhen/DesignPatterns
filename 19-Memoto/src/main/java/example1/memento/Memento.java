@@ -1,4 +1,4 @@
-package example1;
+package example1.memento;
 
 /**
  * 备忘录

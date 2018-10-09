@@ -1,4 +1,6 @@
-package example1;
+package example1.originator;
+
+import example1.memento.Memento;
 
 /**
  * 原发器
