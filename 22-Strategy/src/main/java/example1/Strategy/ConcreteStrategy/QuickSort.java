@@ -1,6 +1,10 @@
-package example1;
+package example1.Strategy.ConcreteStrategy;
+
+import example1.Strategy.Sort;
 
 public class QuickSort implements Sort {
+
+	@Override
 	public int[] sort(int arr[]) {
 		System.out.println("快速排序");
 		sort(arr, 0, arr.length - 1);

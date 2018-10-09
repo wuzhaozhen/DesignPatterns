@@ -1,6 +1,10 @@
-package example1;
+package example1.Strategy.ConcreteStrategy;
+
+import example1.Strategy.Sort;
 
 public class SelectionSort implements Sort {
+
+	@Override
 	public int[] sort(int arr[]) {
 		int len = arr.length;
 		int temp;
