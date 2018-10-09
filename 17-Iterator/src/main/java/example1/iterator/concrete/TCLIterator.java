@@ -1,10 +1,21 @@
-package example1.iterator.impl;
+package example1.iterator.concrete;
 
 import example1.iterator.TVIterator;
 
-public class SkyworthIterator implements TVIterator {
-	private Object[] obj = { "CCTV-1", "CCTV-2", "CCTV-3", "CCTV-4", "CCTV-5", "CCTV-6", "CCTV-7", "CCTV-8" };
+/**
+ * 具体迭代器
+ * 
+ * @author wuzz
+ * @date 2018年10月9日 下午4:16:37
+ */
+public class TCLIterator implements TVIterator {
+	private Object[] obj;
 	private int currentIndex = 0;
+
+	public TCLIterator(Object[] obj) {
+		super();
+		this.obj = obj;
+	}
 
 	@Override
 	public void next() {

@@ -1,8 +1,8 @@
 package example1;
 
+import example1.aggregate.Television;
+import example1.aggregate.concrete.SkyworthTelevision;
 import example1.iterator.TVIterator;
-import example1.iterator.Television;
-import example1.iterator.impl.SkyworthTelevision;
 
 public class Client {
 	public static void display(Television tv) {

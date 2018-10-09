@@ -1,10 +1,21 @@
-package example1.iterator.impl;
+package example1.iterator.concrete;
 
 import example1.iterator.TVIterator;
 
-public class TCLIterator implements TVIterator {
-	private Object[] obj = { "湖南卫视", "北京卫视", "上海卫视", "湖北卫视", "黑龙江卫视" };
+/**
+ * 具体迭代器
+ * 
+ * @author wuzz
+ * @date 2018年10月9日 下午4:16:10
+ */
+public class SkyworthIterator implements TVIterator {
+	private Object[] obj;
 	private int currentIndex = 0;
+
+	public SkyworthIterator(Object[] obj) {
+		super();
+		this.obj = obj;
+	}
 
 	@Override
 	public void next() {
