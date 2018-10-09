@@ -1,4 +1,4 @@
-package example3.observer.impl;
+package example3.observer.concrete;
 
 import example3.observer.Observer;
 import example3.subject.Subject;
@@ -9,15 +9,15 @@ import example3.subject.Subject;
  * @author wuzz
  * @date 2018年10月8日 上午11:00:50
  */
-public class HexaObserver extends Observer {
+public class OctalObserver extends Observer {
 
-	public HexaObserver(Subject subject) {
+	public OctalObserver(Subject subject) {
 		this.subject = subject;
 		this.subject.attach(this);
 	}
 
 	@Override
 	public void update() {
-		System.out.println("Hex String: " + Integer.toHexString(subject.getState()).toUpperCase());
+		System.out.println("Octal String: " + Integer.toOctalString(subject.getState()));
 	}
 }

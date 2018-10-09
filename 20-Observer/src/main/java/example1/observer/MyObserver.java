@@ -13,5 +13,5 @@ public interface MyObserver {
 	 * @author wuzz
 	 * @date 2018年10月8日 上午10:39:36
 	 */
-	void response();
+	void response(String msg);
 }

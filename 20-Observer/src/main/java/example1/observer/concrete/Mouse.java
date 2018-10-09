@@ -1,4 +1,4 @@
-package example1.observer.impl;
+package example1.observer.concrete;
 
 import example1.observer.MyObserver;
 
@@ -9,7 +9,8 @@ import example1.observer.MyObserver;
  * @date 2018年10月8日 上午10:42:33
  */
 public class Mouse implements MyObserver {
-	public void response() {
-		System.out.println("老鼠努力逃跑！");
+	@Override
+	public void response(String msg) {
+		System.out.println(msg + ",老鼠努力逃跑！");
 	}
 }

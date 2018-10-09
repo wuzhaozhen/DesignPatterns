@@ -41,5 +41,5 @@ public abstract class MySubject {
 	 * @author wuzz
 	 * @date 2018年10月8日 上午10:38:44
 	 */
-	public abstract void cry();
+	public abstract void cry(String msg);
 }

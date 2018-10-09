@@ -1,8 +1,8 @@
 package example3;
 
-import example3.observer.impl.BinaryObserver;
-import example3.observer.impl.HexaObserver;
-import example3.observer.impl.OctalObserver;
+import example3.observer.concrete.BinaryObserver;
+import example3.observer.concrete.HexaObserver;
+import example3.observer.concrete.OctalObserver;
 import example3.subject.Subject;
 
 public class Client {

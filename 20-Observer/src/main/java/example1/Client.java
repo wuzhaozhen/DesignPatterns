@@ -1,11 +1,11 @@
 package example1;
 
 import example1.observer.MyObserver;
-import example1.observer.impl.Dog;
-import example1.observer.impl.Mouse;
-import example1.observer.impl.Pig;
+import example1.observer.concrete.Dog;
+import example1.observer.concrete.Mouse;
+import example1.observer.concrete.Pig;
 import example1.subject.MySubject;
-import example1.subject.impl.Cat;
+import example1.subject.concrete.Cat;
 
 public class Client {
 	public static void main(String a[]) {
@@ -22,6 +22,6 @@ public class Client {
 		obs4 = new Pig();
 		subject.attach(obs4);
 
-		subject.cry();
+		subject.cry("猫叫");
 	}
 }

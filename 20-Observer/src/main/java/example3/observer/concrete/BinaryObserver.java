@@ -1,4 +1,4 @@
-package example3.observer.impl;
+package example3.observer.concrete;
 
 import example3.observer.Observer;
 import example3.subject.Subject;

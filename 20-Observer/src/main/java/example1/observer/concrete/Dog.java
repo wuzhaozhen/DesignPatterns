@@ -1,4 +1,4 @@
-package example1.observer.impl;
+package example1.observer.concrete;
 
 import example1.observer.MyObserver;
 
@@ -9,7 +9,9 @@ import example1.observer.MyObserver;
  * @date 2018年10月8日 上午10:42:33
  */
 public class Dog implements MyObserver {
-	public void response() {
-		System.out.println("狗跟着叫！");
+
+	@Override
+	public void response(String msg) {
+		System.out.println(msg + ",狗跟着叫！");
 	}
 }

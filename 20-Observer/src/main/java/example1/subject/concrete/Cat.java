@@ -1,4 +1,4 @@
-package example1.subject.impl;
+package example1.subject.concrete;
 
 import example1.observer.MyObserver;
 import example1.subject.MySubject;
@@ -10,12 +10,14 @@ import example1.subject.MySubject;
  * @date 2018年10月8日 上午10:48:26
  */
 public class Cat extends MySubject {
-	public void cry() {
-		System.out.println("猫叫！");
+
+	@Override
+	public void cry(String msg) {
+		System.out.println(msg);
 		System.out.println("----------------------------");
 
 		for (Object obs : observers) {
-			((MyObserver) obs).response();
+			((MyObserver) obs).response(msg);
 		}
 
 	}
