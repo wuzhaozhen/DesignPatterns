@@ -1,7 +1,7 @@
-package example1.node.impl.children;
+package example1.abstractExpression.nonterminalExpression.children;
 
-import example1.node.Node;
-import example1.node.impl.SymbolNode;
+import example1.abstractExpression.Node;
+import example1.abstractExpression.nonterminalExpression.SymbolNode;
 
 public class ModNode extends SymbolNode {
 	public ModNode(Node left, Node right) {

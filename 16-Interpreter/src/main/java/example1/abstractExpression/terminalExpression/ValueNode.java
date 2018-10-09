@@ -1,6 +1,6 @@
-package example1.node.impl;
+package example1.abstractExpression.terminalExpression;
 
-import example1.node.Node;
+import example1.abstractExpression.Node;
 
 public class ValueNode implements Node {
 	private int value;

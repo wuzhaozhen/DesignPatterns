@@ -2,11 +2,11 @@ package example1;
 
 import java.util.*;
 
-import example1.node.Node;
-import example1.node.impl.ValueNode;
-import example1.node.impl.children.DivNode;
-import example1.node.impl.children.ModNode;
-import example1.node.impl.children.MulNode;
+import example1.abstractExpression.Node;
+import example1.abstractExpression.nonterminalExpression.children.DivNode;
+import example1.abstractExpression.nonterminalExpression.children.ModNode;
+import example1.abstractExpression.nonterminalExpression.children.MulNode;
+import example1.abstractExpression.terminalExpression.ValueNode;
 
 public class Calculator {
 	private Node node;

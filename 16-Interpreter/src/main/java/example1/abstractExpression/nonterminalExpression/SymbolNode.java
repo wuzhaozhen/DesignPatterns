@@ -1,6 +1,6 @@
-package example1.node.impl;
+package example1.abstractExpression.nonterminalExpression;
 
-import example1.node.Node;
+import example1.abstractExpression.Node;
 
 public abstract class SymbolNode implements Node {
 	protected Node left;
