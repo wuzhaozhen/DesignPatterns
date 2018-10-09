@@ -1,5 +1,7 @@
 package example2;
 
+import example2.Context.Switch;
+
 public class Client {
 	public static void main(String args[]) {
 		Switch s1, s2;

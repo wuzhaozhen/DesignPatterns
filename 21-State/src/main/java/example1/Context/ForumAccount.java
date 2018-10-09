@@ -1,4 +1,7 @@
-package example1;
+package example1.Context;
+
+import example1.State.AbstractState;
+import example1.State.ConcreteState.PrimaryState;
 
 /**
  * 环境类（拥有状态的对象）

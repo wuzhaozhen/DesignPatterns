@@ -1,4 +1,6 @@
-package example1;
+package example1.State.ConcreteState;
+
+import example1.State.AbstractState;
 
 public class MiddleState extends AbstractState {
 	public MiddleState(AbstractState state) {
@@ -7,6 +9,7 @@ public class MiddleState extends AbstractState {
 		this.stateName = "高手";
 	}
 
+	@Override
 	public void writeNote(int score) {
 		System.out.println(acc.getName() + "发布留言" + "，增加" + score + "*2个积分。");
 		this.point += score * 2;
@@ -14,6 +17,7 @@ public class MiddleState extends AbstractState {
 		System.out.println("剩余积分为：" + this.point + "，当前级别为：" + acc.getState().stateName + "。");
 	}
 
+	@Override
 	public void checkState(int score) {
 		if (point >= 1000) {
 			acc.setState(new HighState(this));

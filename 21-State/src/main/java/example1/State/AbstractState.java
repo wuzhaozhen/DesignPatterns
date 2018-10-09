@@ -1,4 +1,6 @@
-package example1;
+package example1.State;
+
+import example1.Context.ForumAccount;
 
 /**
  * 抽象状态类
@@ -7,10 +9,17 @@ package example1;
  * @Date 2018年10月8日 下午10:30:20
  */
 public abstract class AbstractState {
-	protected ForumAccount acc;
+	public ForumAccount acc;
 	protected int point;
-	protected String stateName;
+	public String stateName;
 
+	/**
+	 * 进行对象切换
+	 *
+	 * @author wuzz
+	 * @date 2018年10月9日 下午2:21:17
+	 * @param score
+	 */
 	public abstract void checkState(int score);
 
 	public void downloadFile(int score) {

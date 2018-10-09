@@ -1,4 +1,8 @@
-package example2;
+package example2.Context;
+
+import example2.State.State;
+import example2.State.ConcreteState.OffState;
+import example2.State.ConcreteState.OnState;
 
 public class Switch {
 	private static State state, onState, offState;
@@ -12,7 +16,7 @@ public class Switch {
 	}
 
 	public void setState(State state) {
-		this.state = state;
+		Switch.state = state;
 	}
 
 	public void on() {

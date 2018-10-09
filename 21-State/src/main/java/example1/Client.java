@@ -1,5 +1,7 @@
 package example1;
 
+import example1.Context.ForumAccount;
+
 public class Client {
 	public static void main(String args[]) {
 		ForumAccount account = new ForumAccount("张三");

@@ -1,4 +1,6 @@
-package example2;
+package example2.State;
+
+import example2.Context.Switch;
 
 public abstract class State {
 	public abstract void on(Switch s);
