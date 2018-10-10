@@ -1,4 +1,4 @@
-package example1.source;
+package example1.adaptee;
 
 /**
  * 狗

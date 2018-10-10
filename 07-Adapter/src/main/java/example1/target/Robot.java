@@ -1,4 +1,4 @@
-package example1.destination;
+package example1.target;
 
 /**
  * 机器人

@@ -1,7 +1,7 @@
 package example1.adapter;
 
-import example1.destination.Robot;
-import example1.source.Dog;
+import example1.adaptee.Dog;
+import example1.target.Robot;
 
 /**
  * 狗的适配器

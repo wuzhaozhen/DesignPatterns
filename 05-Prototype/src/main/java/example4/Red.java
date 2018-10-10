@@ -6,7 +6,7 @@ public class Red implements MyColor {
 		try {
 			r = (Red) super.clone();
 		} catch (CloneNotSupportedException e) {
-
+			System.out.println("克隆失败");
 		}
 		return r;
 	}
