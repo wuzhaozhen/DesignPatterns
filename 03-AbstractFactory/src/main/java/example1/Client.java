@@ -7,13 +7,10 @@ import example1.product.Television;
 
 public class Client {
 	public static void main(String args[]) {
-		EFactory factory;
-		Television tv;
-		AirConditioner ac;
-		factory = new TCLFactory();
-		tv = factory.produceTelevision();
+		EFactory factory = new TCLFactory();
+		Television tv = factory.produceTelevision();
 		tv.play();
-		ac = factory.produceAirConditioner();
+		AirConditioner ac = factory.produceAirConditioner();
 		ac.changeTemperature();
 	}
 }

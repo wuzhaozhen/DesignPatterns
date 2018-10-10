@@ -1,8 +1,8 @@
-package example1.factory.impl;
+package example1.factory.concrete;
 
 import example1.factory.TVFactory;
 import example1.product.TV;
-import example1.product.impl.HisenseTV;
+import example1.product.concrete.HisenseTV;
 
 /**
  * 具体的产品工厂

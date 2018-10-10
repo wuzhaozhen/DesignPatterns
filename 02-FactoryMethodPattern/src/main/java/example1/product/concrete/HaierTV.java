@@ -1,4 +1,4 @@
-package example1.product.impl;
+package example1.product.concrete;
 
 import example1.product.TV;
 
