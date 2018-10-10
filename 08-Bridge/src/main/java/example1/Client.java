@@ -7,12 +7,8 @@ import example1.abstraction.concreteImplementor.SmallPen;
 
 public class Client {
 	public static void main(String a[]) {
-		Color color;
-		Pen pen;
-
-		color = new White();
-		pen = new SmallPen();
-
+		Color color = new White();
+		Pen pen = new SmallPen();
 		pen.setColor(color);
 		pen.draw("鲜花");
 	}
