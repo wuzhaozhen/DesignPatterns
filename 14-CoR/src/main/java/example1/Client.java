@@ -1,10 +1,10 @@
 package example1;
 
-import example1.cor.Leader;
-import example1.cor.children.Director;
-import example1.cor.children.GeneralManager;
-import example1.cor.children.Manager;
-import example1.cor.children.ViceGeneralManager;
+import example1.Handler.Leader;
+import example1.Handler.Concrete.Director;
+import example1.Handler.Concrete.GeneralManager;
+import example1.Handler.Concrete.Manager;
+import example1.Handler.Concrete.ViceGeneralManager;
 
 public class Client {
 	public static void main(String args[]) {
