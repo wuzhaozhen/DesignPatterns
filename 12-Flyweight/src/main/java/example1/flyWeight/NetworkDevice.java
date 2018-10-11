@@ -1,7 +1,7 @@
 package example1.flyWeight;
 
 public interface NetworkDevice {
-	public String getType();
+    String getType();
 
-	public void use();
+    void use();
 }
