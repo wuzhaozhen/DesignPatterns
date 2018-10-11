@@ -1,8 +1,8 @@
-package example1.object.children;
+package example1.Component;
 
 import java.util.*;
 
-import example1.object.MyElement;
+import example1.Composite.MyElement;
 
 public class Plate extends MyElement {
 	private ArrayList<MyElement> list = new ArrayList<MyElement>();

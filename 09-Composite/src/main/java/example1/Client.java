@@ -1,10 +1,10 @@
 package example1;
 
-import example1.object.MyElement;
-import example1.object.children.Apple;
-import example1.object.children.Banana;
-import example1.object.children.Pear;
-import example1.object.children.Plate;
+import example1.Component.Plate;
+import example1.Composite.MyElement;
+import example1.Composite.leaf.Apple;
+import example1.Composite.leaf.Banana;
+import example1.Composite.leaf.Pear;
 
 public class Client {
 	public static void main(String a[]) {
