@@ -9,20 +9,17 @@ import example2.proxy.impl.RealSubjectB;
 import example2.proxy.proxy.DynamicProxy;
 
 public class Client {
-	public static void main(String args[]) {
-		InvocationHandler handler = null;
-		AbstractSubject subject = null;
+    public static void main(String args[]) {
+        InvocationHandler handler = new DynamicProxy(new RealSubjectA());
+        AbstractSubject subject = (AbstractSubject) Proxy.newProxyInstance(AbstractSubject.class.getClassLoader(),
+                new Class[]{AbstractSubject.class}, handler);
+        subject.response();
 
-		handler = new DynamicProxy(new RealSubjectA());
-		subject = (AbstractSubject) Proxy.newProxyInstance(AbstractSubject.class.getClassLoader(),
-				new Class[] { AbstractSubject.class }, handler);
-		subject.response();
+        System.out.println("------------------------------");
 
-		System.out.println("------------------------------");
-
-		handler = new DynamicProxy(new RealSubjectB());
-		subject = (AbstractSubject) Proxy.newProxyInstance(AbstractSubject.class.getClassLoader(),
-				new Class[] { AbstractSubject.class }, handler);
-		subject.request();
-	}
+        handler = new DynamicProxy(new RealSubjectB());
+        subject = (AbstractSubject) Proxy.newProxyInstance(AbstractSubject.class.getClassLoader(),
+                new Class[]{AbstractSubject.class}, handler);
+        subject.request();
+    }
 }

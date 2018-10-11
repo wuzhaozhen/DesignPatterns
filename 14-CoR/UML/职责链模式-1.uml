@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>example1.cor.children.Director</OriginalElement>
+  <nodes>
+    <node x="789.0" y="195.0">example1.cor.children.ViceGeneralManager</node>
+    <node x="558.9035714285715" y="322.0">example1.Client</node>
+    <node x="467.99285714285713" y="0.0">example1.cor.Leader</node>
+    <node x="0.0" y="195.0">example1.cor.children.GeneralManager</node>
+    <node x="263.0" y="195.0">example1.cor.children.Manager</node>
+    <node x="526.0" y="195.0">example1.cor.children.Director</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="example1.Client" target="example1.cor.children.GeneralManager">
+      <point x="-69.60000000000002" y="-26.5" />
+      <point x="576.3035714285713" y="302.0" />
+      <point x="121.5" y="302.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="example1.cor.children.Director" target="example1.cor.Leader">
+      <point x="60.75" y="-38.5" />
+      <point x="708.25" y="175.0" />
+      <point x="616.4928571428571" y="175.0" />
+      <point x="27.0" y="62.5" />
+    </edge>
+    <edge source="example1.Client" target="example1.cor.children.Director">
+      <point x="0.0" y="-26.5" />
+      <point x="645.9035714285715" y="302.0" />
+      <point x="647.5" y="302.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="example1.Client" target="example1.cor.children.Manager">
+      <point x="-34.799999999999955" y="-26.5" />
+      <point x="611.1035714285715" y="292.0" />
+      <point x="384.5" y="292.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="example1.cor.children.GeneralManager" target="example1.cor.Leader">
+      <point x="60.75" y="-38.5" />
+      <point x="182.25" y="155.0" />
+      <point x="508.49285714285713" y="155.0" />
+      <point x="-81.0" y="62.5" />
+    </edge>
+    <edge source="example1.cor.children.ViceGeneralManager" target="example1.cor.Leader">
+      <point x="60.75" y="-38.5" />
+      <point x="971.25" y="155.0" />
+      <point x="670.4928571428571" y="155.0" />
+      <point x="81.0" y="62.5" />
+    </edge>
+    <edge source="example1.cor.children.Manager" target="example1.cor.Leader">
+      <point x="60.75" y="-38.5" />
+      <point x="445.25" y="175.0" />
+      <point x="562.4928571428571" y="175.0" />
+      <point x="-27.0" y="62.5" />
+    </edge>
+    <edge source="example1.Client" target="example1.cor.Leader">
+      <point x="69.60000000000002" y="-26.5" />
+      <point x="715.5035714285714" y="302.0" />
+      <point x="1042.5" y="302.0" />
+      <point x="1042.5" y="145.0" />
+      <point x="697.4928571428571" y="145.0" />
+      <point x="108.0" y="62.5" />
+    </edge>
+    <edge source="example1.Client" target="example1.cor.children.ViceGeneralManager">
+      <point x="34.799999999999955" y="-26.5" />
+      <point x="680.7035714285714" y="292.0" />
+      <point x="910.5" y="292.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="516.0" y="175.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
