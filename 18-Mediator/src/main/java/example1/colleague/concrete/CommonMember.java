@@ -10,7 +10,7 @@ public class CommonMember extends Member {
     @Override
     public void sendText(String to, String message) {
         System.out.println("普通会员发送信息：");
-        chatroom.sendText(name, to, message); // 发送
+        chatRoom.sendText(name, to, message); // 发送
     }
 
     @Override

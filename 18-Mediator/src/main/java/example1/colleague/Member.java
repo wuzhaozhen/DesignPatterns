@@ -3,7 +3,7 @@ package example1.colleague;
 import example1.mediator.AbstractChatroom;
 
 public abstract class Member {
-    protected AbstractChatroom chatroom;
+    protected AbstractChatroom chatRoom;
     protected String name;
 
     public Member(String name) {
@@ -18,12 +18,12 @@ public abstract class Member {
         this.name = name;
     }
 
-    public AbstractChatroom getChatroom() {
-        return chatroom;
+    public AbstractChatroom getChatRoom() {
+        return chatRoom;
     }
 
-    public void setChatroom(AbstractChatroom chatroom) {
-        this.chatroom = chatroom;
+    public void setChatRoom(AbstractChatroom chatRoom) {
+        this.chatRoom = chatRoom;
     }
 
     public abstract void sendText(String to, String message);
