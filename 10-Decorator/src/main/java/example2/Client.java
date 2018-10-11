@@ -1,9 +1,9 @@
 package example2;
 
-import example2.decorator.Cipher;
-import example2.decorator.decorator.children.AdvancedCipher;
-import example2.decorator.decorator.children.ComplexCipher;
-import example2.decorator.impl.SimpleCipher;
+import example2.Component.Cipher;
+import example2.Component.decorator.concrete.AdvancedCipher;
+import example2.Component.decorator.concrete.ComplexCipher;
+import example2.Component.concrete.SimpleCipher;
 
 public class Client {
 	public static void main(String args[]) {
@@ -18,6 +18,7 @@ public class Client {
 
 		cc = new ComplexCipher(sc);
 		cpassword = cc.encrypt(password);
+		System.out.println(((ComplexCipher) cc).reverse(password));
 		System.out.println(cpassword);
 		System.out.println("---------------------");
 
