@@ -1,10 +1,10 @@
 package example1;
 
 import example1.command.AbstractCommand;
-import example1.command.Controller;
-import example1.command.impl.TVChangeCommand;
-import example1.command.impl.TVCloseCommand;
-import example1.command.impl.TVOpenCommand;
+import example1.Invoker.Controller;
+import example1.command.Concrete.TVChangeCommand;
+import example1.command.Concrete.TVCloseCommand;
+import example1.command.Concrete.TVOpenCommand;
 
 public class Client {
 	public static void main(String a[]) {
