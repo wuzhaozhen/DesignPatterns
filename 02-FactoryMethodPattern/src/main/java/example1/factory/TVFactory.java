@@ -9,5 +9,5 @@ import example1.product.TV;
  * @date 2018年10月8日 上午11:48:53
  */
 public interface TVFactory {
-	public TV produceTV();
+	TV produceTV();
 }
